@@ -1,0 +1,19 @@
+.dropdown-container {
+  height: 6vh;
+}
+
+.dropdown-container select {
+  width: 100%;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #ba2a69;
+  color: #fff;
+  height: 100%;
+}
+
+@media only screen and (min-device-width: 681px) {
+  .dropdown-container {
+    display: none;
+  }
+}

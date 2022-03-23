@@ -2,20 +2,29 @@
   "name": "shopping-cart",
   "version": "0.1.0",
   "private": true,
+  "description": "This is a shopping cart coding exercise",
+  "main": "index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.26.1",
+    "canned": "^0.3.13",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
+    "react-slick": "^0.28.1",
+    "redux": "^4.1.2",
+    "redux-logger": "^3.0.6",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "canned -p 5000 ./server | react-scripts start",
+    "backend": "canned -p 5000 ./server"
   },
   "eslintConfig": {
     "extends": [
